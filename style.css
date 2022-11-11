@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("reset.css");
+body {
+    background: linear-gradient(to right, orange, rgb(112, 80, 80));
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    height: 33px;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 82rem;
+    left: 46%;
+    top: -180%;
+}
+
+.page-card{
+    text-align: center;
+    border: outset red;
+    background: pink; width: 500px;
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+    text-decoration: none;
+    gap: 1.5rem;
+   
+
+   
+}
+.form-item{
+    position: absolute;
+    top: .82rem;
+    left: 1.4rem;
+    font-size: 1.3rem;
+    opacity: .4;
+}
+
+.page-card::after{
+    background: black;
+    transform: rotate(+6deg);
+   
+}
+.page-card::before{
+    transform: rotate(-6deg);
+    background: black;
+}
+.logo{
+    width: 60px;
+    height: 33px;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 82rem;
+    left: 46%;
+    top: -75%;
+
+}
+.onother{
+    display: flex;
+
+}
+
+.login-card{
+    border: 1ch;
+}
+.logo{
+    margin-bottom: 2rem;
+    width: 60px;
+    text-align: center;
+}
+.label{ 
+    position: relative;
+    top: 2px;
+}
+
+.botona{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 5%;
+    background: black;
+    color: aliceblue;
+    position: relative;
+    position: absolute ;
+    font-size: 1.3rem;
+}
+.login-card input[type=text],
+.login-card input[type=pasword]{
+    border: none; 
+    outline: none;
+    background: rgb(112, 80, 80);
+
+}
